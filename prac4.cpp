@@ -55,7 +55,7 @@ void transform::object()
 void transform::accept()
 {
 cout<<"\n";
- cout<<"Enter the Number Of Edges:";
+ cout<<"Enter the number Of Edges:";
     cin>>m;
     cout<<"\nEnter The Coordinates :";
     for(int i=0;i<m;i++)
