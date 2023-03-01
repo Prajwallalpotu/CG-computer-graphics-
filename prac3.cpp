@@ -28,11 +28,11 @@ y=r;
 d=3-2*r;
 do
 {
-putpixel(x1+x0+x, y0+y-y1, 15);
+putpixel(x1+x0+x, y0+y-y1,15);
 putpixel(x1+x0+y, y0+x-y1,15);
 putpixel(x1+x0+y, y0-x-y1,15);
-putpixel(x1+x0+x,y0-y-y1,15);
-putpixel(x1+x0-x,y0-y-y1,15);
+putpixel(x1+x0+x, y0-y-y1,15);
+putpixel(x1+x0-x, y0-y-y1,15);
 putpixel(x1+x0-y, y0-x-y1,15);
 putpixel(x1+x0-y, y0+x-y1,15);
 putpixel(x1+x0-x, y0+y-y1,15);
@@ -53,7 +53,7 @@ while(x<y);
 
 class pt
 {
-protected: int xco, yco,color;
+protected: int xco, yco, color;
 public:
 pt()
 {
@@ -123,16 +123,16 @@ pt::draw();
 int main()
 {
 int gd=DETECT, gm;
-initgraph(&gd, &gm, "c:\\turboc3\\bgi");
+initgraph(&gd, &gm, "c:\\TC\\bgi");
 int x,y,r, x1, x2, y1, y2, xmax, ymax, xmid, ymid, n, i;
 dcircle c;
 clrscr();
-cout<<"\nenter coordinates of centre of circle : ";
+cout<<"\n enter coordinates of centre of circle : ";
 cout<<"\n enter the value of x : ";
 cin>>x;
-cout<<"\nenter the value of y : ";
+cout<<"\n enter the value of y : ";
 cin>>y;
-cout<<"\nenter the value of radius : ";
+cout<<"\n enter the value of radius : ";
 cin>>r;
 xmax= getmaxx();
 ymax=getmaxy();

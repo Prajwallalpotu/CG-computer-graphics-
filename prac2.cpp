@@ -1,5 +1,3 @@
-/*Write C++ program to implement Cohen Southerland line clipping
-algorithm.*/
 #include<iostream.h>
 #include<conio.h>
 #include<graphics.h>
